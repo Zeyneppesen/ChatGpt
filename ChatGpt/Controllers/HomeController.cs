@@ -13,7 +13,7 @@ namespace ChatGpt.Controllers
         [HttpPost]
         public async Task<ActionResult> GetAIBasedResult(string SearchText)
         {
-            string APIKey = "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";
+            string APIKey = "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";
             string answer = string.Empty;
             var openai = new OpenAIAPI(APIKey);
             CompletionRequest completion = new CompletionRequest();
@@ -30,7 +30,7 @@ namespace ChatGpt.Controllers
         //[HttpPost]
         //public async Task<ActionResult> GetAIBasedResult(string SearchText)
         //{
-        //    string APIKey = "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";
+        //   string APIKey = "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";
         //    string answer = string.Empty;
 
         //    try
